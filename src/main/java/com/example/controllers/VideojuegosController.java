@@ -116,7 +116,7 @@ public class VideojuegosController {
             dialog.getDialogPane().getStyleClass().add("dialog");
             dialog.setTitle("Agregar nuevo");
             dialog.setGraphic(null);
-            dialog.setHeaderText("Detalles del libro:");
+            dialog.setHeaderText("Detalles del videojuego:");
 
             Button cancelButton = (Button) dialog.getDialogPane().lookupButton(ButtonType.CANCEL);
             cancelButton.setText("Cancelar");
