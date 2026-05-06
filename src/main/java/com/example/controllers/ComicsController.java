@@ -116,7 +116,7 @@ public class ComicsController {
             dialog.getDialogPane().getStyleClass().add("dialog");
             dialog.setTitle("Agregar nuevo");
             dialog.setGraphic(null);
-            dialog.setHeaderText("Detalles del Comic:");
+            dialog.setHeaderText("Detalles del comic:");
 
             Button cancelButton = (Button) dialog.getDialogPane().lookupButton(ButtonType.CANCEL);
             cancelButton.setText("Cancelar");
@@ -239,7 +239,7 @@ public class ComicsController {
                     dialog.getDialogPane().getStyleClass().add("dialog");
                     dialog.setTitle("Modificar");
                     dialog.setGraphic(null);
-                    dialog.setHeaderText("Detalles del Comic:");
+                    dialog.setHeaderText("Detalles del comic:");
                     
                     Button cancelButton = (Button) dialog.getDialogPane().lookupButton(ButtonType.CANCEL);
                     cancelButton.setText("Cancelar");
